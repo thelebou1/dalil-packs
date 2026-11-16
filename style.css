@@ -1,0 +1,12 @@
+:root{color-scheme:light dark;--fond:#EEEDEA;--carte:#FFFFFF;--encre:#161616;--doux:#55524C;--or:#C9A227}
+@media (prefers-color-scheme:dark){:root{--fond:#0E0E0E;--carte:#181715;--encre:#F3F0E8;--doux:#B5AE9F;--or:#E2C268}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);font:17px/1.6 -apple-system,"Helvetica Neue",sans-serif}
+main{max-width:720px;margin:0 auto;padding:56px 22px 80px}
+h1{font-size:30px;line-height:1.2;margin:0 0 6px}
+.filet{width:56px;height:2px;background:var(--or);border-radius:2px;margin:18px 0 28px}
+h2{font-size:19px;margin:32px 0 8px}
+p,li{color:var(--doux)}
+.carte{background:var(--carte);border-radius:16px;padding:20px 22px;margin:14px 0}
+a{color:inherit}
+nav{margin-top:40px;font-size:15px;color:var(--doux)}
